@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Karla:wght@700&family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.wrapper{
+  display: flex;
+  background-color: #F1F2F7;
+}
+
+li{
+  list-style: none;
+}
+
+.chart-heading{
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+#sidebar{
+  width: 15%;
+  padding: 20px 20px;
+  height: 100vh;
+  color: #4c678a;
+  position: sticky;
+  top:0;
+}
+
+#logodiv{
+  color: #5A67BA;
+  font-size: 20px;
+  font-weight: 700px;
+   padding-bottom: 12px;
+  border-bottom: 0.5px solid gray;
+}
+
+#sidebar-heading{
+  color: rgb(150, 145, 145);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 30px 0px;
+}
+
+.sidebar-list{
+  line-height: 3rem;
+  font-weight: 500;
+}
+
+.sidebar-list li{
+  cursor: pointer;
+}
+
+#main-content{
+  width: 85%;
+  padding: 20px;
+  background-color: rgb(247, 247, 247);
+}
+
+.searchbar{
+  width:100% ;
+  border-bottom: 0.5px solid gray;
+  padding-bottom: 10px;
+}
+
+.searchdiv{
+  height: 32px;
+  width: 625px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: white;
+}
+
+#two-div{
+  display: flex;
+  padding-top: 20px;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.data-div{
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  background-color: white;
+}
+
+.first{
+width: 68%;
+height: 450px;
+border-radius: 3px;
+padding: 10px;
+}
+
+.second{
+width: 32%;
+height: 450px;
+padding: 10px;
+border-radius: 3px;
+}
+
+.second .filter-btn{
+  margin-left: 10px;
+}
+.apex-charts-menu-icon{
+  display: none;
+}
+
+.donut-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+#three-div{
+  display: flex;
+  padding-top: 20px;
+  gap: 25px;
+}
+
+.box{
+  width: 33.3%;
+  height: 470px;
+  border-radius: 3px;
+  padding: 10px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  background-color: white;
+}
+
+.box .filter-btn{
+  margin-left: 10px;
+}
+
+.apexcharts-toolbar{
+  display: none;
+}
+
+.filter-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5aba9c;
+  color: white;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 3px;
+  width: 130px;
+  cursor: pointer;
+}
+
+.filter-btn:hover{
+  background-color: #4a9980;
+}
+
